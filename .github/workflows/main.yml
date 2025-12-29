@@ -1,0 +1,9 @@
+name: Application Demowork Flow
+on: workflow_dispatch
+jobs: 
+  demo:
+    name: Demo job
+    runs-on: 
+    steps:
+    - name: Greetings
+      run: echo "Hello world"
